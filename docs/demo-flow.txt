@@ -1,0 +1,35 @@
+# Universal Social Gateway: Demo Workflow Evidence
+
+## Step 1: System Health Check
+Command: `node dist/index.js doctor`
+Expected Output:
+┌────────────┬────────┐
+│ (index)    │ Values │
+├────────────┼────────┤
+│ database   │ true   │
+│ queue      │ true   │
+│ connectors │ true   │
+└────────────┴────────┘
+
+## Step 2: System Status
+Command: `node dist/index.js status`
+Expected Output:
+┌────────────┬────────┐
+│ (index)    │ Values │
+├────────────┼────────┤
+│ accounts   │ 0      │
+│ sessions   │ 0      │
+│ connectors │ 2      │
+│ plugins    │ 0      │
+│ jobs       │ X      │
+└────────────┴────────┘
+
+## Step 3: Execute Post (Example Connector)
+Command: `node dist/index.js post example "Test Automation"`
+Expected Output:
+Post ID: post-[random-id]
+
+## Step 4: Verify Persistence
+Command: `sqlite3 usg.db "SELECT * FROM audit_logs WHERE event='post' ORDER BY id DESC LIMIT 1;"`
+Expected Output:
+[row-id]|post|{"taskId":"post-[random-id]","text":"Test Automation"}

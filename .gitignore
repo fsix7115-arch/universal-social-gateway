@@ -1,0 +1,11 @@
+node_modules/
+dist/
+usg.db
+.hermes/
+.cache/
+.npm/
+.gradle/
+.android/
+profiles/
+.vscode-remote/
+.DS_Store

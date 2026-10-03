@@ -1,0 +1,24 @@
+{
+  "name": "universal-social-gateway",
+  "version": "0.1.0",
+  "private": true,
+  "bin": {
+    "social": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo 'testing...'"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "dotenv": "^18.0.5",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^26.6.4",
+    "typescript": "^5.9.3"
+  }
+}
