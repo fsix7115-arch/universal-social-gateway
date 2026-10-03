@@ -1,0 +1,15 @@
+12
+   56 src/types.ts
+   22 src/services/logger.ts
+   22 src/services/browser.ts
+   25 src/services/database.ts
+   16 src/services/secrets.ts
+   33 src/jobs/manager.ts
+   26 src/jobs/worker.ts
+   26 src/connectors/example/connector.ts
+   11 src/connectors/registry.ts
+   10 src/connectors/mock.ts
+   18 src/index.ts
+   20 src/plugins/manager.ts
+  285 total
+2

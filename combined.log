@@ -1,0 +1,16 @@
+{"level":"info","message":"Initializing database...","timestamp":"2026-10-03T08:44:31.102Z"}
+{"level":"info","message":"Initializing database...","timestamp":"2026-10-03T08:44:31.200Z"}
+{"level":"info","message":"Initializing database...","timestamp":"2026-10-03T08:44:31.289Z"}
+{"level":"info","message":"Initializing database...","timestamp":"2026-10-03T08:44:31.380Z"}
+{"level":"info","message":"Initializing database...","timestamp":"2026-10-03T08:44:31.469Z"}
+{"level":"info","message":"Initializing database...","timestamp":"2026-10-03T08:44:31.563Z"}
+{"level":"info","message":"Initializing database...","timestamp":"2026-10-03T08:44:31.652Z"}
+{"level":"info","message":"Initializing database...","timestamp":"2026-10-03T08:45:05.900Z"}
+{"level":"info","message":"Initializing database...","timestamp":"2026-10-03T08:50:53.182Z"}
+{"level":"info","message":"Initializing database...","timestamp":"2026-10-03T08:50:53.272Z"}
+{"level":"info","message":"Initializing database...","timestamp":"2026-10-03T08:55:50.637Z"}
+{"level":"info","message":"Initializing database...","timestamp":"2026-10-03T08:55:50.725Z"}
+{"level":"info","message":"Initializing database...","timestamp":"2026-10-03T08:55:50.828Z"}
+{"level":"info","message":"Enabled sample, changes: 1","timestamp":"2026-10-03T09:28:11.990Z"}
+{"level":"info","message":"Job i6hzd completed","timestamp":"2026-10-03T09:51:39.990Z"}
+{"level":"error","message":"Job rgw3dc failed: Simulated failure","timestamp":"2026-10-03T09:51:40.009Z"}
