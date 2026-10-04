@@ -25,7 +25,7 @@ program.command('list-platforms')
   .description('List supported social platforms')
   .action(() => {
     console.log(chalk.blue('Supported Platforms:'));
-    registry.getConnectors().forEach(c => console.log(`- ${c.id}: ${c.name}`));
+    registry.getConnectors().forEach((c: any) => console.log(`- ${c.id}: ${c.name}`));
   });
 
 program.command('post')
